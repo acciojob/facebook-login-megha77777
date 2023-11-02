@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body{
+background-color: #f6f6f6;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.left{
+	width: 450px;
+	margin-top: 70px;
+	display:inline-block;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	width:300px;
+	background-color:white;
+	padding:20px;
+	border-radius:5px;
+	box-shadow: 0 0 10px #ccc;
+	gap:10px;
+}
+form>input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding:10px;
+}
+#btn{
+	cursor:pointer;
+	border:none;
+	color: #fff;
+	background-color: #1877f2;
+	border-radius:5px;
+	padding: 10px 20px;
+}
+form>a{
+	color: #1877f2;
+	text-decoration:none;
+	padding: 10px;
+}
+.signup{
+	cursor:pointer;
+	border:none;
+	background-color: #42b72a;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius:5px;
+}
+
